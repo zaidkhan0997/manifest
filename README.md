@@ -1,5 +1,6 @@
+![IMG_20240330_224359](https://github.com/ProjectBlaze/manifest/assets/87426352/1e62709a-d474-4ced-adad-5155801d1fe8)
 Getting Started:
- ==============
+===============
 
 To get started with Project Blaze, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
 
