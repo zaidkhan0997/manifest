@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- ProjectBlaze-Extra -->
+  <remote  name="blaze-extra"
+           fetch="https://github.com/ProjectBlaze-Extras"
+           revision="14" />
+
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" revision="14" remote="blaze-extra" />
+
+</manifest>
