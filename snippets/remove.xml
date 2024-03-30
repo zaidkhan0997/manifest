@@ -108,6 +108,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="kernel/configs" />
+  <remove-project name="platform/platform_testing" />
 
   <!-- Hardware repos -->
   <!-- Hardware -->
@@ -121,6 +122,7 @@
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages repos -->
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/modules/Bluetooth" />
