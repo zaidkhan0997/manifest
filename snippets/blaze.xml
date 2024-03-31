@@ -85,6 +85,7 @@
   <!-- Remote Packages -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaze" />
+  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" />
   <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" revision="14" remote="blaze" />
 
   <!-- Remote Packages Modules -->
@@ -92,6 +93,9 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" revision="14-QPR2" remote="blaze-gitea" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="blaze" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="blaze" />
+  <project path="packages/overlays/Themes" name="packages_overlays_Themes" revision="14" remote="blaze" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
 
   <!-- Remote System -->
   <project path="system/core" name="system_core" remote="blaze-gitea" />
@@ -102,4 +106,5 @@
   <project path="vendor/blaze" name="vendor_blaze" revision="14-QPR2" remote="blaze" />
   <project path="vendor/gms" name="vendor_gms" remote="blaze-gitea" revision="14" clone-depth="1" />
   <project path="vendor/support" name="vendor_support" remote="blaze" revision="14"  />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" revision="14" remote="blaze" />
 </manifest>
