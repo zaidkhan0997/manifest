@@ -8,5 +8,5 @@
 
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" revision="14" remote="blaze-extra" />
   <project path="platform_testing" name="platform_testing" revision="14" remote="blaze-extra" />
-
+  <project path="frameworks/ex" name="frameworks_ex" revision="14" remote="blaze-extra" />
 </manifest>
