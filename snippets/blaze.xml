@@ -29,6 +29,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="blaze" />
   <project path="frameworks/native" name="frameworks_native" remote="blaze" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="blaze" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaze" />
 
   <!-- Remote General repos -->
   <project path="art" name="art" remote="blaze" />
@@ -52,6 +53,7 @@
   <!-- Remote Hardware -->
   <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" remote="blaze" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="blaze" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" revision="14" remote="blaze" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" revision="14" remote="blaze" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -90,6 +92,9 @@
   <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" revision="14" remote="blaze" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaze" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="blaze" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaze" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaze" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" revision="14" remote="blaze" />
 
   <!-- Remote Packages Modules -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="blaze" />
@@ -99,6 +104,7 @@
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" revision="14" remote="blaze" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="blaze" />
 
   <!-- Remote System -->
   <project path="system/core" name="system_core" remote="blaze-gitea" />
