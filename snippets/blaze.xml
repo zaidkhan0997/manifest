@@ -119,4 +119,7 @@
   <project path="vendor/gms" name="vendor_gms" remote="blaze-gitea" revision="14-QPR2" clone-depth="1" />
   <project path="vendor/support" name="vendor_support" remote="blaze" revision="14"  />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" revision="14" remote="blaze" />
+
+  <!-- Remote Prebuilts -->
+  <project path="prebuilts/exthm-sdk" name="exthmui-next/android_prebuilts_exthmui-sdk" revision="Utsuho" remote="github" />
 </manifest>
