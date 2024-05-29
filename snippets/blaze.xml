@@ -110,7 +110,8 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="blaze" />
 
   <!-- Remote System -->
-  <project path="system/core" name="system_core" remote="blaze-gitea" />
+  <project path="system/core" name="system_core" remote="blaze" />
+  <project path="system/media" name="system_media" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
   <project path="system/update_engine" name="system_update_engine" remote="blaze" />
 
