@@ -17,18 +17,18 @@
   <!-- Project Blaze -->
   <remote  name="blaze"
            fetch="https://github.com/ProjectBlaze"
-           revision="14-QPR2" />
+           revision="14-QPR3" />
 
   <!-- Gitea (Project Blaze) -->
   <remote  name="blaze-gitea"
            fetch="https://gitea.com/projectblaze"
-           revision="14-QPR2" />
+           revision="14-QPR3" />
   <!-- CalyxOS additions -->
   <project path="external/calyx/datura" name="CalyxOS/platform_external_calyx_datura" remote="gitlab" revision="android14" />
   <project path="prebuilts/calyx/datura" name="CalyxOS/platform_prebuilts_calyx_datura" remote="gitlab" clone-depth="1" revision="android14" />
 
   <!-- Remote Device -->
-  <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" revision="14-QPR2" remote="blaze" />
+  <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" revision="14-QPR3" remote="blaze" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" revision="14" remote="blaze" />
 
   <!-- Remote Frameworks  -->
@@ -123,8 +123,8 @@
   <project path="system/update_engine" name="system_update_engine" remote="blaze" />
 
   <!-- Remote Vendor -->
-  <project path="vendor/blaze" name="vendor_blaze" revision="14-QPR2" remote="blaze" />
-  <project path="vendor/gms" name="vendor_gms" remote="blaze-gitea" revision="14-QPR2" clone-depth="1" />
+  <project path="vendor/blaze" name="vendor_blaze" revision="14-QPR3" remote="blaze" />
+  <project path="vendor/gms" name="vendor_gms" remote="blaze-gitea" revision="14-QPR3" clone-depth="1" />
   <project path="vendor/support" name="vendor_support" remote="blaze" revision="14"  />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" revision="14" remote="blaze" />
 
