@@ -5,8 +5,6 @@
            revision="refs/heads/lineage-21.0" />
 
   <!-- External -->
-  <project path="external/cronet" name="android_external_cronet" remote="lineage" />
-  <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
@@ -20,9 +18,7 @@
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/webp" name="android_external_webp" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
-  <project path="external/zstd" name="android_external_zstd" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="lineage" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="lineage" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
@@ -30,14 +26,9 @@
   <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-21" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
-  <project path="kernel/configs" name="android_kernel_configs" remote="lineage" />
   <project path="system/bpf" name="android_system_bpf" remote="lineage" />
-  <project path="system/security" name="android_system_security" remote="lineage" />
-  <project path="system/vold" name="android_system_vold" remote="lineage" />
 
   <!-- Google Devices-->
   <project path="device/google/gs-common" name="android_device_google_gs-common" revision="lineage-21" remote="lineage" />

@@ -53,6 +53,8 @@
   <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" remote="blaze" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="blaze" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" revision="14" remote="blaze" />
+  <project path="hardware/ril" name="hardware_ril" remote="blaze" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="blaze" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" revision="14" remote="blaze" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -112,6 +114,8 @@
   <project path="system/core" name="system_core" remote="blaze" />
   <project path="system/media" name="system_media" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
+  <project path="system/security" name="system_security" remote="blaze" />
+  <project path="system/vold" name="system_vold" remote="blaze" />
   <project path="system/update_engine" name="system_update_engine" remote="blaze" />
 
   <!-- Remote Vendor -->
