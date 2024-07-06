@@ -6,6 +6,11 @@
            fetch="https://github.com/ProjectBlaze-Extras"
            revision="14-QPR3" />
 
+  <!-- BitBucket -->
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/projectblaze"
+           revision="14" />
+
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" revision="14" remote="blaze-extra" />
   <project path="platform_testing" name="platform_testing" revision="14-QPR3" remote="blaze-extra" />
   <project path="frameworks/ex" name="frameworks_ex" revision="14-QPR3" remote="blaze-extra" />
@@ -14,4 +19,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="blaze-extra" />
   <project path="external/zstd" name="external_zstd" remote="blaze-extra" />
   <project path="kernel/configs" name="kernel_configs" remote="blaze-extra" />
+
+  <!-- General Repos -->
+  <project path="prebuilts/sdk" name="prebuilts_sdk" remote="bitbucket" />
 </manifest>

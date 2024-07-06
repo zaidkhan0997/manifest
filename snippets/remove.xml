@@ -110,6 +110,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="kernel/configs" />
   <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/prebuilts/sdk" />
 
   <!-- Hardware repos -->
   <!-- Hardware -->
