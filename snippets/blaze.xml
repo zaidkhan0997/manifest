@@ -106,6 +106,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="blaze" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="blaze" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" revision="14" remote="blaze" />
+  <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" revision="14" remote="blaze" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="blaze" />
