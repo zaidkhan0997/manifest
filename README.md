@@ -7,7 +7,7 @@ To get started with Project Blaze, you'll need to get familiar with [Repo](https
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init --depth=1 -u https://github.com/ProjectBlaze/manifest -b 14-QPR3
+repo init --depth=1 -u https://github.com/ProjectBlaze/manifest -b 14
 ```
 
 Then to sync up:
@@ -24,7 +24,7 @@ From root directory of Project, perform following commands in terminal
 
 ```bash
 $ . build/envsetup.sh
-$ lunch blaze_$device-userdebug
+$ lunch blaze_$device-ap2a-userdebug
 $ make bacon
 ```
 NOTE:
