@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+
+    <!-- External -->
+  <remove-project name="platform/external/cronet" />
+  <remove-project name="platform/external/dtc" />
+  <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libnl" />
+  <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/webp" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zstd" />
+
+  <!-- General repos -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+</manifest>
