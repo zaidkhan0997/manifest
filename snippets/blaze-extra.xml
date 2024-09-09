@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- ProjectBlaze-Extra -->
+  <remote  name="blaze-extra"
+           fetch="https://github.com/ProjectBlaze-Extras"
+           revision="15" />
+
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" revision="15" remote="blaze-extra" />
+  <project path="platform_testing" name="platform_testing" revision="15" remote="blaze-extra" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="blaze-extra" />
+  <project path="external/zstd" name="external_zstd" remote="blaze-extra" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="blaze-extra" />
+</manifest>
