@@ -7,7 +7,7 @@ To get started with Project Blaze, you'll need to get familiar with [Repo](https
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init --depth=1 -u https://github.com/ProjectBlaze/manifest -b 15
+repo init --depth=1 -u https://github.com/zaidkhan0997/manifest -b 15
 ```
 
 Then to sync up:
